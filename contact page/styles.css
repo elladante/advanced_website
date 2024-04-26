@@ -1,0 +1,104 @@
+body {
+    display: block;
+    overflow-x: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+}
+
+nav {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: red;
+}
+
+nav ul li a {
+    color: pink;
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+nav ul li a:hover {
+    color: whitesmoke;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: red;
+}
+
+section h2 {
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+section p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.social-buttons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+.social-buttons a i {
+    margin-right: 5px;
+}
+.social-buttons a:hover {
+    color: #555;
+}
+
+.fill-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #6d6875;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: white;
+    color:black;
+}
+.error {
+    color: red;
+}
+
+
