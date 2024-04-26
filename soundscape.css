@@ -1,0 +1,35 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+  }
+  h1 {
+    margin-top: 15%;
+    text-align: center;
+  }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+  }
+  .container :hover {
+    background-color: white;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    font-family:'Courier New', Courier, monospace;
+    min-width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: 600;
+  }  

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Sound Effects - Ella Dante</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="sounds.css"/>
+    <script type="text/javascript">
+      function play_sound(clicked_id) {
+        var audio = new Audio(clicked_id + ".mp3");
+        audio.play();
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Custom Sound Effects<h1>
+    <div class="container">
+      <div class="center">
+        <button id="keys" onClick="play_sound(this.id)">keys</button>
+        <button id="door" onClick="play_sound(this.id)">door</button>
+        <button id="faucet_running" onClick="play_sound(this.id)">faucet running</button>
+        <button id="flipping_pages" onClick="play_sound(this.id)">flipping pages</button>
+        <button id="hairdryer" onClick="play_sound(this.id)">hairdryer</button>
+        <button id="ripping_towel" onClick="play_sound(this.id)">ripping towel</button>
+        <button id="paper_crushing" onClick="play_sound(this.id)">paper crushing</button>
+        <button id="clicking_pen" onClick="play_sound(this.id)">clicking pen</button>
+        <button id="food_wrapper" onClick="play_sound(this.id)">food wrapper</button>
+        <button id="pencil_writing" onClick="play_sound(this.id)">pencil writing</button>
+      </div>
+    </div>
+  </body>
+</html>
